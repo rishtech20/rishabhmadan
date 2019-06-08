@@ -11,7 +11,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  height: 450px;
+  height: 470px;
   margin: 200px 90px 0 90px;
   justify-content: center;
   //color: white;
@@ -28,6 +28,12 @@
     font-size: 20px;
     font-weight: 500;
     width: 95%;
+  }
+  .iconsContainer {
+    display: flex;
+    margin-top: 30px;
+    width: 60%;
+    justify-content: space-between;
   }
   .imageContainer {
     display: flex;
@@ -67,6 +73,9 @@
       font-weight: 500;
       width: 100%;
       margin-top: 20px;
+    }
+    .iconsContainer {
+      margin: 30px auto 0 auto;
     }
     .imageContainer {
       display: flex;
