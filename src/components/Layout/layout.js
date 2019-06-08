@@ -1,6 +1,7 @@
 import React from "react";
 import ColorStrip from "../ColorStrip-Horizontal/colorStrip";
 import Header from "../Header/header";
+import Footer from "../Footer/footer";
 import styles from "./layout.module.scss";
 
 export default ({ children }) => (
@@ -9,11 +10,9 @@ export default ({ children }) => (
       <ColorStrip />
       <Header />
     </div>
-    <div className={styles.contentContainer}>{children}</div>
-    <div
-      style={{ background: "red", width: "100%", height: "100px", bottom: "0" }}
-    >
-      Footer
+    <main className={styles.contentContainer}>{children}</main>
+    <div>
+      <Footer />
     </div>
   </div>
 );
