@@ -1,0 +1,20 @@
+button {
+  border: none;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.stripContainer {
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.strip {
+  background: black;
+  height: 4px;
+  width: 28px;
+}

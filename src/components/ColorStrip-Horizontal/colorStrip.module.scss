@@ -1,0 +1,24 @@
+.colorStripContainer {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  flex-direction: row;
+  height: 5px;
+  .red {
+    background: #d50000;
+    width: 25%;
+  }
+  .green {
+    background: #006060;
+    width: 25%;
+  }
+  .blue {
+    background: #1e8bc3;
+    width: 25%;
+  }
+  .yellow {
+    background: #aa8f00;
+    width: 25%;
+  }
+}
