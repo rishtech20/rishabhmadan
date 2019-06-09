@@ -1,0 +1,14 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  :nth-child(n) {
+    padding: 0 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skillsContainer {
+    flex-direction: column;
+  }
+}

@@ -25,7 +25,7 @@ export default class Header extends React.Component {
           <nav className={styles.innerContainer}>
             <div>
               <Link to={"/"}>
-                <img src="circuitImage1.png" width="70" />
+                <img src="/headerImage/circuitImage1.png" width="70" />
               </Link>
             </div>
             <div className={styles.spacer} />

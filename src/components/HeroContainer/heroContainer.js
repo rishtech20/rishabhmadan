@@ -16,8 +16,7 @@ export default class HeroContainer extends React.Component {
               Hi, I'm <span className={styles.highlight}>Rishabh</span>
             </div>
             <div className={styles.descriptionContainer}>
-              I'm a <span className={styles.highlight}>Software Engineer</span>{" "}
-              working in India.
+              I'm a <span className={styles.highlight}>Software Engineer.</span>
               <br />I churn Business Models into Business Logic by creating
               scalable service layers. I specialise in{" "}
               <span className={styles.highlight}>

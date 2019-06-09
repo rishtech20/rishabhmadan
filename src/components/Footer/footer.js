@@ -14,6 +14,8 @@ export default () => (
       <Icon size={24} icon={twitter} />
       <Icon size={24} icon={medium} />
     </div>
-    <div className={styles.copyrightContainer}>&copy; Rishabh Madan</div>
+    <div className={styles.copyrightContainer}>
+      Copyright &copy; 2019 Rishabh Madan
+    </div>
   </footer>
 );
