@@ -20,3 +20,12 @@
   text-align: center;
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    padding: 20px 80px;
+  }
+  .iconsContainer {
+    width: 70%;
+  }
+}
