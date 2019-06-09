@@ -13,9 +13,9 @@ export default () => (
     </blockquote>
     <p>
       It all started at age of 6 when, I wired up a little 5V bulb in series
-      with 2 AA batteries. I suddenly evolved from a well ornamented monkey into
-      a modern man - I fell in love with one question - "How does it work and
-      how do I do/fix it?". Wrote my first line of code when I was 12 years old.
+      with 2 AA batteries. I suddenly evolved from a well ornamented ape into a
+      modern man - I fell in love with one question - "How does it work and how
+      do I do/fix it?". Wrote my first line of code when I was 12 years old.
       Since then my future was defined.
     </p>
     <p>

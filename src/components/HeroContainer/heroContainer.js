@@ -20,7 +20,7 @@ export default class HeroContainer extends React.Component {
               <br />I churn Business Models into Business Logic by creating
               scalable service layers. I specialise in{" "}
               <span className={styles.highlight}>
-                SAAS tool development
+                SaaS tool development
               </span>{" "}
               and
               <span className={styles.highlight}>
